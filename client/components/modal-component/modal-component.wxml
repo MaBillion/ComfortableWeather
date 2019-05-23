@@ -1,0 +1,10 @@
+<view class="modal-component">
+    <view class="modal-component-header">{{myProperty.iconTxt}}</view>
+    <view class="modal-component-main">
+        <view>{{myProperty.iconTxt}}指数: {{myProperty.brf}}</view>
+        <view>{{myProperty.txt}}</view>
+        <view class="defaultTap">
+            <button type="default" size="defaultSize" bindtap="defaultTap">我知道了</button>
+        </view>
+    </view>
+</view>

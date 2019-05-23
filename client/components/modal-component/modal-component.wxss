@@ -1,0 +1,42 @@
+.modal-component {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10rpx;
+}
+
+.modal-component-header {
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    color: #fff;
+    background: #1890ff;
+    border-radius: 10rpx 10rpx 0 0;
+}
+
+.modal-component-main {
+    padding: 10rpx 20rpx;
+    color: #333;
+    font-size: 28rpx;
+}
+
+.modal-component-main view {
+    margin: 20rpx 0;
+}
+
+.defaultTap {
+    text-align: center;
+}
+
+.modal-component-main .defaultTap button {
+    height: 60rpx;
+    width: 70%;
+    line-height: 60rpx;
+    font-size: 28rpx;
+    color: #fff;
+    background: #1890ff;
+    margin: 40rpx auto 10rpx;
+}
